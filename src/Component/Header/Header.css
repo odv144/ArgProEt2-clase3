@@ -1,0 +1,33 @@
+
+.Header{
+    background-color: rgb(114, 114, 114);
+    display: flex;
+  
+    align-items: center;
+
+}
+
+h2 img{
+    width: 200px;
+}
+nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    
+}
+nav a{
+    text-decoration: none;
+    border-radius: 10px;
+    /* border:1px solid black; */
+    padding: 5px 10px;
+    margin:5px 10px;
+    background:linear-gradient(blue,black);
+    color:white;
+}
+nav>a:hover{
+    transition: 1s;
+    background: rgb(3, 225, 233);
+    color:rgb(0, 0, 0);
+    font-weight: bold;
+}

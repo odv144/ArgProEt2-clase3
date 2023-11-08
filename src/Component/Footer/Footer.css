@@ -1,0 +1,8 @@
+footer{
+    color:white;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+   
+    margin-top: 150px;
+}

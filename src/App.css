@@ -1,16 +1,73 @@
+body{
+  background: linear-gradient(grey,rgba(0, 0, 0, 0.842));
+  min-height: 100vh;
+
+}
 .App {
   text-align: center;
+  
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
+main{
+  display:flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+.card{
+  width: 30%;
+  margin: 10px auto;
+  box-shadow: 5px 5px 5px black;
+}
+.card-img-top{
+  max-width: 70%;
+  margin:5px auto;
+}
+.card-body{
+  background:linear-gradient(white,rgb(0, 0, 0));
+}
+.card-title{
+  text-shadow: 2px 2px 1px rgb(255, 255, 255);
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: bold;
+  font-size: 2em;
+}
+.card-text{
+  color:white;
+  text-shadow: 2px 2px 1px black;
+  font-size: 1.2em;
+}
+.card-precio{
+  color:rgb(4, 187, 4);
+  text-shadow:2px 2px 1px rgb(0, 0, 0);
+  font-weight: bold;
+  text-align: center;
+  font-size: 2em;
+  background: radial-gradient(black,rgba(6, 224, 6, 0.788));
+  border-radius: 20px;
+}
+.card-stock{
+  color:rgb(235, 235, 235);
+  text-shadow:2px 2px 1px rgb(0, 0, 0);
+  font-weight: bold;
+  text-align: center;
+  font-size: 1.2em;
+}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
+  main{
+    width: 100%;
+    margin: 10px auto;
+  
+  }
+
 }
 
 .App-header {
